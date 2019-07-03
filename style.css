@@ -40,14 +40,14 @@ h3.white-text{
 	font-size: 30px;
 	margin-top: 0;	
 }
-div.top-botton{
+.top-botton{
 	display: flex;
 	width: 100%;
 	position: absolute;
 	bottom: -24px;
 	justify-content: space-around;	
 }
-div.shadow{
+.shadow{
 	position: absolute;
 	top: -10px;
 	bottom: -10px;
@@ -139,7 +139,7 @@ li.main-item:hover>.price{
 	text-align: center;
 	letter-spacing: .06em;
 }
-.footer-app>span{
+.footer-app-text-light{
 	color: #FFC4A1;
 	margin-right: 24px;
 }
@@ -187,7 +187,8 @@ div.icons{
 		width: calc(100% - 20px);
 	}
 }
-p{
-	display: flex;
-	
+@media(max-width: 360px){	
+	.shadow{
+		display: none;
+	}
 }

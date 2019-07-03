@@ -186,6 +186,10 @@ div.icons{
 	.main-item{		
 		width: calc(100% - 20px);
 	}
+	.footer-app-text{
+		display: flex;
+		flex-direction: column;
+	}
 }
 @media(max-width: 360px){	
 	.shadow{
